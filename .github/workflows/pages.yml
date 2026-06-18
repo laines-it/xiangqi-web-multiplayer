@@ -1,5 +1,6 @@
 name: Deploy to GitHub Pages
 
+# Repository Settings > Pages must use "GitHub Actions" as the source.
 on:
   push:
     branches:
@@ -27,9 +28,6 @@ jobs:
         with:
           node-version: 24
           cache: npm
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
 
       - name: Install dependencies
         run: npm ci
