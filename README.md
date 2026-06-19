@@ -1,6 +1,6 @@
 ﻿# xiangqi-web-multiplayer
 
-Browser multiplayer Xiangqi client for the Ruleshift Go server. The client talks to the gateway at `ws://147.45.211.122:8080/ws` using WebSocket binary frames where every outbound payload is a protobuf `ClientEnvelope` and every inbound payload is decoded as a `ServerEnvelope`.
+Browser multiplayer Xiangqi client for the Ruleshift Go server. The client talks to the gateway at `wss://api.xiangqi-russia.ru/ws` using WebSocket binary frames where every outbound payload is a protobuf `ClientEnvelope` and every inbound payload is decoded as a `ServerEnvelope`.
 
 ## Stack
 
@@ -53,7 +53,7 @@ npm run dev
 The default connection values in the UI are:
 
 ```text
-Server URL: ws://147.45.211.122:8080/ws
+Server URL: wss://api.xiangqi-russia.ru/ws
 Ticket:     mock:player-1
 Room:       demo
 ```

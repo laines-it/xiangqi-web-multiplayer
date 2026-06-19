@@ -22,7 +22,7 @@ import {
   XiangqiSide,
 } from "./protocol/ruleshiftProtocol";
 
-const DEFAULT_SERVER_URL = "ws://147.45.211.122:8080/ws";
+const DEFAULT_SERVER_URL = "wss://api.xiangqi-russia.ru/ws";
 const DEFAULT_TICKET = "mock:player-1";
 const DEFAULT_ROOM_ID = "demo";
 const MAX_LOG_ENTRIES = 160;
